@@ -1,0 +1,23 @@
+{
+	"name": "Cronfusion",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {
+			"ppa": true,
+			"version": "os-provided"
+		},
+		"ghcr.io/devcontainers/features/go:1": {
+			"version": "1.21"
+		}
+	},
+	"forwardPorts": [8080],
+	"postCreateCommand": "uname -a",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
