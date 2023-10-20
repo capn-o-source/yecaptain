@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/capn-o-source/cronfusion/internal/loader"
-	"github.com/capn-o-source/cronfusion/web/router"
+	"github.com/capn-o-source/yecaptain/internal/loader"
+	"github.com/capn-o-source/yecaptain/web/router"
 )
 
 func main() {

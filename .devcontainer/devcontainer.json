@@ -1,5 +1,5 @@
 {
-	"name": "Cronfusion",
+	"name": "yecaptain",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {

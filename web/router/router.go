@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/capn-o-source/cronfusion/internal/loader"
+	"github.com/capn-o-source/yecaptain/internal/loader"
 	"github.com/gin-gonic/gin"
 )
 
