@@ -14,7 +14,7 @@ func InitRouter() *gin.Engine {
 	return router
 }
 
-func AddPluginRoutes(router *gin.Engine, loader loader.Loader) *gin.Engine {
+func AddCoreRoutes(router *gin.Engine, loader loader.Loader) *gin.Engine {
 	router = loader.GetRoutes(router)
 
 	return router

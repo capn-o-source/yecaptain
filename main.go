@@ -14,12 +14,12 @@ func main() {
 	apiServer := router.InitRouter()
 
 	for _, core := range cores {
-		pluginLoader, err := loader.LoadCores(core)
+		coreLoader, err := loader.LoadCores(core)
 		if err != nil {
 			panic(err)
 		}
 
-		apiServer = router.AddPluginRoutes(apiServer, pluginLoader)
+		router.AddCoreRoutes(apiServer, coreLoader)
 	}
 
 	apiServer.Run(":8080")
