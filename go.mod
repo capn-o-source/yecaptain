@@ -1,4 +1,4 @@
-module github.com/capn-o-source/cronfusion
+module github.com/capn-o-source/yecaptain
 
 go 1.21.3
 
